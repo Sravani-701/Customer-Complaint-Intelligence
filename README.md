@@ -136,7 +136,7 @@ The model was developed using a consumer financial complaints dataset. The raw t
 Do not commit passwords, API keys, database credentials, or private environment configuration files.
 ## Live Deployment
 
-- **Frontend (Web Application):** [https://complaint-frontend-059x.onrender.com]
+- **Frontend (Web Application):** https://complaint-frontend-059x.onrender.com
 - **Backend API:** [https://customer-complaint-intelligence-1.onrender.com](https://customer-complaint-intelligence-1.onrender.com)
 - **Machine Learning API:** [https://complaint-ml-service.onrender.com](https://complaint-ml-service.onrender.com)
 
