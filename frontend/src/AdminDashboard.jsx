@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from "recharts";
 import "./AdminDashboard.css";
 
-const API_URL = "http://localhost:5001";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5001";;
 const STATUS_OPTIONS = ["Pending", "In Progress", "Resolved"];
 const PIE_COLORS = ["#4F46E5", "#06B6D4", "#10B981", "#F59E0B", "#EF4444", "#8B5CF6", "#EC4899", "#64748B", "#84CC16", "#F97316", "#0EA5E9", "#A855F7", "#14B8A6", "#F43F5E", "#D97706"];
 
